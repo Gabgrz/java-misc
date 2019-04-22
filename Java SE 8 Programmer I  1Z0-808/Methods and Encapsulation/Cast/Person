@@ -1,0 +1,32 @@
+class Person{
+	private String name;
+	private int age;
+
+	Person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+
+	public static void main (String[] args){
+
+
+	}
+}
+
+class Employee implements Worker{
+	private int id;
+	public void setId(int id){
+		this.id = id;
+	}
+	public int getId(){
+		return id;
+	} 
+
+	public void works(){
+		System.out.println("Working");
+	}
+}
+
+interface Worker{
+	void works();
+}

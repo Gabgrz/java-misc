@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class ExceptionsPlayground {
+    
+    class Ink{}
+    class ColorInk extends Ink{
+        String color = "Color ink";
+    }
+    class ClackInk extends Ink{
+        String color = "Black ink";
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        // ClassCastException:
+        
+        ArrayList<Ink> inkList = new ArrayList<Ink>();
+        inkList.add(new ColorInk());
+        inkList.add(new BlackInk());
+        Ink newInk = inkList.get(0);
+        System.out.println(newInk.color);
+            
+    }
+    
+}

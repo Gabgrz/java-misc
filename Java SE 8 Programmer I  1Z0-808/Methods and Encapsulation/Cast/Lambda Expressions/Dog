@@ -1,0 +1,17 @@
+public canlass Dog{
+
+	private String status;
+
+	public Dog(String status){
+		this.status = status;
+	}
+	static void isNewDog(GGPredicate<Dog> pred, Dog dog){
+		if(pred.test(dog)){System.out.println("Doggo is new");}
+		else{System.out.println("Doggo is dead, can't be new");}
+	}
+	public static void main(String[] str){
+		Dog marduk = new Dog("Dead");
+		Dog ballack = new Dog("Alive");
+		isNewDogo(a -> (a.status).equals("Alive"), ballack);
+	}
+}

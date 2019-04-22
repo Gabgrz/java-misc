@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ObjectOverriding",
+            "request": "launch",
+            "mainClass": "objectoverriding.ObjectOverriding"
+        }
+    ]
+}
