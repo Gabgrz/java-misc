@@ -1,6 +1,6 @@
 # Java Misc
 
-A collection of Java exercises, examples, and practice code covering various topics and concepts.
+A collection of Java exercises, examples, and practice code covering various topics and concepts from 2019 and earlier.
 
 ## Structure
 
